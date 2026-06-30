@@ -45,7 +45,7 @@ If you'd rather manage `ydotoold` yourself:
 
 ```bash
 sudo systemctl enable --now ydotool
-python3 snap_advance.py
+python3 main.py
 ```
 
 You may need to run with `sudo`, or adjust permissions on the
@@ -53,7 +53,7 @@ You may need to run with `sudo`, or adjust permissions on the
 
 ## Tuning
 
-Open `snap_advance.py` and adjust the constants at the top:
+Open `main.py` and adjust the constants at the top:
 
 | Setting | What it does |
 |---|---|
